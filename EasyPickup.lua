@@ -36,7 +36,7 @@ end)
 AddEventHandler('ews:createPickups', function(pickUpDatas)
 
   for _, p in pairs(pickUpDatas)  do
-    CreatPickup(p.pickupItem, p.location, 5.0) -- 5.0 is ammo amount, You can change
+    CreatPickup(p.pickupItem, p.location, 1.0) -- 1.0 is amount, You can change
   end
   
   
